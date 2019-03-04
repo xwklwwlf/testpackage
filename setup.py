@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='xwklwwltestpackage',
     license='Apache License 2.0',
-    version='0.0.2',
+    version='0.0.3',
     # packages=['testpackage'],
     packages=find_packages(where='.', exclude=(), include=('*',)),
     zip_safe=False,
